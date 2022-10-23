@@ -35,7 +35,7 @@ div{
 }
 
 
-.ff{
+.img-pefil{
   border-radius: 50%;
   border:  2px solid  var(--purple);
   padding: 2px;
@@ -55,7 +55,7 @@ text-align: center;
 color: var(--purple);
 }
 
-.ss li{
+.links li{
 cursor: pointer;
 padding: 11px;
 list-style: none;
@@ -69,11 +69,11 @@ margin-bottom: 16px;
 transition: border 1000ms;
 }
 
-.ss li:hover{
+.links li:hover{
   border: 2px solid var(--purples);
 }
 
-.ss a{
+.links a{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -86,7 +86,7 @@ transition: border 1000ms;
   text-decoration: none;
 }
 
-.cc{
+.links-icon{
   cursor: pointer;
   display: flex;
   list-style: none;
@@ -101,6 +101,8 @@ transition: border 1000ms;
 font-size: 24px;
 color: var(--purple);
 transition: color 1000ms;
+text-align: center;
+align-items: center;
 }
 
 li i:hover{
